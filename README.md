@@ -17,9 +17,13 @@ jobs:
       - name: prepare-data-folder
         run : mkdir 'data'
       - name: download-archive
-        run: curl -sL "${{ github.event.release.tarball_url }}" > "$ARCHIVE_NAME".tar.gz
+        run: |
+          curl -sL "${{ github.event.release.zipball_url }}" > "$ARCHIVE_NAME".zip
+          curl -sL "${{ github.event.release.tarball_url }}" > "$ARCHIVE_NAME".tar.gz
       - name: move-archive
-        run: mv "$ARCHIVE_NAME".tar.gz data/
+        run: |
+          mv "$ARCHIVE_NAME".zip data/
+          mv "$ARCHIVE_NAME".tar.gz data/
       - name: upload-to-figshare
         uses: figshare/github-upload-action@v1.1
         with:
