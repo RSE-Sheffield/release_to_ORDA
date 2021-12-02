@@ -1,5 +1,7 @@
 # release_to_ORDA
 
+![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.17113328-lightgrey)
+
 Copy releases of software to ORDA
 
 ```{YAML}
