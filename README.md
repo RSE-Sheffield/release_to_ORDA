@@ -35,9 +35,10 @@ jobs:
           DATA_DIR: 'data'
 ```
 
-## How to find and store your `FIGSHARE_TOKEN`
+## How to generate and store your `FIGSHARE_TOKEN`
 
-TBD
+1. Follow the [instructions from Figshare](https://help.figshare.com/article/how-to-get-a-personal-token) to generate a personal access token.
+2. Follow these [instructions from GitHub](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to store the value of the token with the name `FIGSHARE_TOKEN` in the repository from which you want to publish releases.
 
 ## How to find you article ID
 
