@@ -1,8 +1,3 @@
-# release_to_ORDA
-
-Copy releases of software to ORDA
-
-```{YAML}
 name: Release to ORDA
 on:
   workflow_dispatch:
@@ -25,14 +20,5 @@ jobs:
         with:
           FIGSHARE_TOKEN: ${{ secrets.FIGSHARE_TOKEN }}
           FIGSHARE_ENDPOINT: 'https://api.figshare.com/v2'
-          FIGSHARE_ARTICLE_ID: <<YOUR ARTICLE ID>>
+          FIGSHARE_ARTICLE_ID: 17113328 
           DATA_DIR: 'data'
-```
-
-## How to find and store your `FIGSHARE_TOKEN`
-
-TBD
-
-## How to find you article ID
-
-TBD
