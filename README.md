@@ -42,4 +42,10 @@ jobs:
 
 ## How to find you article ID
 
-TBD
+`FIGSHARE_ARTICLE_ID` should be set to the integer that ends your ORDA DOI e.g. if your DOI is:
+
+> `10.15131/shef.data.17113328`
+
+the `FIGSHARE_ARTICLE_ID` is:
+
+> `17113328`
