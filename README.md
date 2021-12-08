@@ -63,4 +63,5 @@ jobs:
 
 ### Create a release
 
-TBD
+1. Follow these [instructions from GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release) to create a release. This will trigger a GitHub action which pushes the release (`.tar.gz` and `.zip`) to ORDA.
+
