@@ -26,6 +26,8 @@ the `FIGSHARE_ARTICLE_ID` is:
 
 ### Create a release-triggered workflow
 
+1. Create a file in your repository: `.github/workflows/ORDA.yaml` and populate it with the `YAML` code below.
+
 ```{YAML}
 name: Release to ORDA
 on:
@@ -56,6 +58,8 @@ jobs:
           FIGSHARE_ARTICLE_ID: <<YOUR ARTICLE ID>>
           DATA_DIR: 'data'
 ```
+
+2. Replace `<<YOUR ARTICLE ID>>` with the Figshare article ID you identified in the previous step.
 
 ### Create a release
 
