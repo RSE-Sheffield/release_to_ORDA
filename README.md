@@ -71,4 +71,4 @@ TBD
 
 ## Contributing
 
-TBD
+If you spot an error, or something that could be added or improved please [raise an issue](https://github.com/RSE-Sheffield/release_to_ORDA/issues). If you'd like to propose a change that you can implement yourself, please [make a pull request](https://github.com/RSE-Sheffield/release_to_ORDA/pulls).
