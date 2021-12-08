@@ -10,13 +10,13 @@ Copy releases of software to ORDA
 1. Follow the [instructions from Figshare](https://help.figshare.com/article/how-to-get-a-personal-token) to generate a personal access token.
 2. Follow these [instructions from GitHub](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to store the value of the token with the name `FIGSHARE_TOKEN` in the repository from which you want to publish releases.
 
-### Create a record on ORDA
+### Create an article on ORDA
 
-TBD
+1. Follow these [instructions from Figshare](https://help.figshare.com/article/how-to-upload-and-publish-your-data) to create an article on ORDA. Fill in the metadata, as appropriate, but **do not upload any files**. These will be automatically pushed from GitHub.
 
 ### Find you article ID
 
-`FIGSHARE_ARTICLE_ID` should be set to the integer that ends your ORDA DOI e.g. if your DOI is:
+`FIGSHARE_ARTICLE_ID` is the integer that ends your ORDA DOI e.g. if your DOI is:
 
 > `10.15131/shef.data.17113328`
 
