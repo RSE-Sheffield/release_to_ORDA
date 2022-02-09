@@ -1,6 +1,6 @@
 # release_to_ORDA
 
-[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.17113328-lightgrey)](https://figshare.shef.ac.uk/articles/software/Release_to_ORDA/17113328)
+[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.17113328.v1-lightgrey)](https://figshare.shef.ac.uk/articles/software/Release_to_ORDA/17113328/1)
 
 Copy releases of software to ORDA
 
@@ -70,7 +70,7 @@ jobs:
 To make a badge, add the following markdown to your readme:
 
 ```
-[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.<<YOUR ARTICLE ID>>-lightgrey)](https://figshare.shef.ac.uk/articles/software/<<YOUR REPOSITORY NAME>>/<<YOUR ARTICLE ID>>)
+[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.<<YOUR ARTICLE ID>>.v.<<YOUR DOI VERSION NUMBER>>-lightgrey)](https://figshare.shef.ac.uk/articles/software/<<YOUR REPOSITORY NAME>>/<<YOUR ARTICLE ID>>/<<YOUR DOI VERSION NUMBER>>)
 ```
 
 ## Contributing
