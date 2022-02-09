@@ -1,6 +1,6 @@
 # release_to_ORDA
 
-![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.17113328-lightgrey)
+[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.17113328-lightgrey)](https://figshare.shef.ac.uk/articles/software/Release_to_ORDA/17113328)
 
 Copy releases of software to ORDA
 
