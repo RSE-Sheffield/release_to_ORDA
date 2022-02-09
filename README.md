@@ -67,7 +67,7 @@ jobs:
 
 ### Create a badge
 
-To make a badge, add the following markdown to your readme:
+To make a badge, add the following markdown to your readme. `YOUR DOI VERSION NUMBER` appears at the end of your DOI.
 
 ```
 [![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.<<YOUR ARTICLE ID>>.v.<<YOUR DOI VERSION NUMBER>>-lightgrey)](https://figshare.shef.ac.uk/articles/software/<<YOUR REPOSITORY NAME>>/<<YOUR ARTICLE ID>>/<<YOUR DOI VERSION NUMBER>>)
