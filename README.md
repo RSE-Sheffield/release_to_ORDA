@@ -65,6 +65,8 @@ jobs:
 
 1. Follow these [instructions from GitHub](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release) to create a release. This will trigger a GitHub action which pushes the release (`.tar.gz` and `.zip`) to ORDA.
 
+**Note that currently there is no system to ensure that the version number / code in the release tag matches the DOI version number.**
+
 ### Create a badge
 
 To make a badge, add the following markdown to your readme. `YOUR DOI VERSION NUMBER` appears at the end of your DOI.
