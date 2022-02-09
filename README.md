@@ -67,7 +67,11 @@ jobs:
 
 ### Create a badge
 
-TBD
+To make a badge, add the following markdown to your readme:
+
+```
+[![](https://img.shields.io/badge/ORDA--DOI-10.15131%2Fshef.data.<<YOUR ARTICLE ID>>-lightgrey)](https://figshare.shef.ac.uk/articles/software/<<YOUR REPOSITORY NAME>>/<<YOUR ARTICLE ID>>)
+```
 
 ## Contributing
 
